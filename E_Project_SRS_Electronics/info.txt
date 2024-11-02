@@ -1,0 +1,88 @@
+INSERT INTO products (product_id, product_name, revise, manufacture_date)
+VALUES ('SWG1234567', 'Switch Gear Model X', 1, '2024-08-30');
+INSERT INTO testing (test_id, product_id, test_type, test_date, tester_name, test_result, remarks, status)
+VALUES ('SWG123456701', 'SWG1234567', 'High Voltage Test', '2024-08-31', 'John Doe', 'pass', 'Tested successfully under standard conditions', 'completed');
+
+
+INSERT INTO products (product_id, product_name, revise, manufacture_date)
+VALUES ('FUS7890123', 'Fuse Model A', 2, '2024-08-28');
+INSERT INTO testing (test_id, product_id, test_type, test_date, tester_name, test_result, remarks, status)
+VALUES ('FUS789012301', 'FUS7890123', 'Short Circuit Test', '2024-08-29', 'Jane Smith', 'fail', 'Fuse blew out under test conditions', 'completed');
+
+
+INSERT INTO products (product_id, product_name, revise, manufacture_date)
+VALUES ('CAP4567890', 'Capacitor Model B', 1, '2024-08-25');
+INSERT INTO testing (test_id, product_id, test_type, test_date, tester_name, test_result, remarks, status)
+VALUES ('CAP456789001', 'CAP4567890', 'Capacitance Measurement', '2024-08-26', 'Michael Brown', 'pass', 'Capacitance within acceptable range', 'completed');
+
+INSERT INTO products (product_id, product_name, revise, manufacture_date)
+VALUES ('RES1234567', 'Resistor Model X', 2, '2024-08-20');
+
+INSERT INTO products (product_id, product_name, revise, manufacture_date)
+VALUES ('SWITCH890123', 'Switch Gear Model Y', 1, '2024-08-22');
+
+INSERT INTO testing (test_id, product_id, test_type, test_date, tester_name, test_result, remarks, status)
+VALUES ('RES123456701', 'RES1234567', 'Resistance Check', '2024-08-21', 'Anna Smith', 'pass', 'Resistance is within specifications', 'completed');
+
+INSERT INTO testing (test_id, product_id, test_type, test_date, tester_name, test_result, remarks, status)
+VALUES ('SWITCH89012301', 'SWITCH890123', 'Electrical Performance Test', '2024-08-23', 'John Doe', 'fail', 'Failure in electrical performance', 'pending');
+
+FUS1234567
+Fuse Model C
+
+username: testuser
+password: testpassword
+
+Example 1:
+Product Data:
+
+product_id: "TRX9876543"
+product_name: "Transformer Series Y"
+revise: 2
+manufacture_date: "2024-09-05"
+Testing Data:
+
+test_id: "TRX987654301"
+product_id: "TRX9876543"
+test_type: "Load Test"
+test_date: "2024-09-06"
+tester_name: "Alice Smith"
+test_result: "pass"
+remarks: "Load test passed under maximum load conditions"
+status: "completed"
+
+Example 2:
+Product Data:
+
+product_id: "CPT2468101"
+product_name: "Capacitor Model Z"
+revise: 3
+manufacture_date: "2024-09-10"
+Testing Data:
+
+test_id: "CPT246810101"
+product_id: "CPT2468101"
+test_type: "Capacitance Test"
+test_date: "2024-09-11"
+tester_name: "Robert Brown"
+test_result: "fail"
+remarks: "Failed to meet required capacitance levels"
+status: "pending"
+
+Example 3:
+Product Data:
+
+product_id: "GNR1122334"
+product_name: "Generator Model A"
+revise: 1
+manufacture_date: "2024-09-15"
+Testing Data:
+
+test_id: "GNR112233401"
+product_id: "GNR1122334"
+test_type: "Durability Test"
+test_date: "2024-09-16"
+tester_name: "Emily Clark"
+test_result: "pass"
+remarks: "Passed durability test with no issues detected"
+status: "completed"

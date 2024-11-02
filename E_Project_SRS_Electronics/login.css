@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Login Container Styling */
+.login-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+/* Heading Styling */
+h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Login Button Styling */
+button.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.login-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Container Styling */
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Register Button Styling */
+a.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a.register-button:hover {
+    background-color: #005f6a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Error Message Styling */
+p.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
